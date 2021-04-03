@@ -7,7 +7,7 @@ const Nav = () => {
       <nav>
         <div class="nav-wrapper container">
           <Link to="/" class="brand-logo right">
-            My Dent
+            My Dentist
           </Link>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
             <li>
