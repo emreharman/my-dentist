@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+#loading {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading h5 {
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.mt-2 {
+  margin-top: 40px;
+}
+.ml-1 {
+  margin-left: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form-button-container button {
+  width: 40%;
+}
+h4 {
+  color: #263238;
+}
+.islemler-button {
+  height: 20px;
+  line-height: 20px;
+  font-size: 0.7rem;
+  padding: 0 5px;
+}
