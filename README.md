@@ -6,19 +6,14 @@ App refresh every 5 minutes and checks today's appointments. If there is a overd
 
 ## Dependencies
 
-<hr/>
-
 This app is a single page app. I've used React-Router for routing, json-server for keeping data in a json file, axios for HTTP requests.
 
 ## Using App
-
-<hr/>
 
 First clone this repo and run `npm install` to install dependencies. Then run `npm run json:server` command. This command will start your json-server on port 8000. Now open another command line and run `npm start` command. So you can use the app now.
 
 ## Preview
 
-<hr/>
 Here is a preview of app. You can examine it in detail by cloning and running.I will update this repo as I improve app.
 
 ![my-dentist-preview](https://raw.githubusercontent.com/emreharman/my-dentist/master/src/img/my-dentist-preview.gif)
