@@ -70,7 +70,7 @@ const HastaIslemleri = (props) => {
               </tr>
             </thead>
             <tbody>
-              {hastalar.map((hasta) => {
+              {hastalar.length > 0 ? hastalar.map((hasta) => {
                 const filteredRandevular = randevular.filter((randevu) => {
                   if (randevu.hastaId === hasta.id) {
                     return true;
@@ -122,7 +122,11 @@ const HastaIslemleri = (props) => {
                     </td>
                   </tr>
                 );
-              })}
+              })
+              : <tr>
+                <td colSpan={6}>"Henüz hasta yok"</td>
+              </tr> 
+              }
             </tbody>
           </table>
         </>
