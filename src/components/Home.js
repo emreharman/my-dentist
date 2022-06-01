@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import TodayRandevular from "./TodayRandevular";
-import GelecekRandevular from "./GelecekRandevular";
+import TodayRandevular from "./randevu/TodayRandevular";
+import GelecekRandevular from "./randevu/GelecekRandevular";
 import Loading from "./Loading";
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import Loading from "./Loading";
+import Loading from "../Loading";
 
 const HastaIslemleri = (props) => {
   const [hastalar, setHastalar] = useState([]);
@@ -70,7 +70,7 @@ const HastaIslemleri = (props) => {
               </tr>
             </thead>
             <tbody>
-              {hastalar.map((hasta) => {
+              {hastalar.length > 0 ? hastalar.map((hasta) => {
                 const filteredRandevular = randevular.filter((randevu) => {
                   if (randevu.hastaId === hasta.id) {
                     return true;
@@ -122,7 +122,11 @@ const HastaIslemleri = (props) => {
                     </td>
                   </tr>
                 );
-              })}
+              })
+              : <tr>
+                <td colSpan={6}>"Henüz hasta yok"</td>
+              </tr> 
+              }
             </tbody>
           </table>
         </>
