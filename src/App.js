@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
-import RandevuDuzenle from "./components/RandevuDuzenle";
-import RandevuEkle from "./components/RandevuEkle";
-import HastaIslemleri from "./components/HastaIslemleri";
-import HastaRandevuDetay from "./components/HastaRandevuDetay";
-import HastaGuncelle from "./components/HastaGuncelle";
+import RandevuDuzenle from "./components/randevu/RandevuDuzenle";
+import RandevuEkle from "./components/randevu/RandevuEkle";
+import HastaIslemleri from "./components/hasta/HastaIslemleri";
+import HastaRandevuDetay from "./components/hasta/HastaRandevuDetay";
+import HastaGuncelle from "./components/hasta/HastaGuncelle";
 
 function App() {
   setTimeout(() => {
